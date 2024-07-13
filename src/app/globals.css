@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,14 +18,65 @@
   }
 }
 
+p,h1,h2,h3,h4,h5,h6{
+  font-family: 'Fredoka', sans-serif;
+}
+
+button:hover{
+  background-color: #5f2613;
+  
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  color: #803219;
+
+
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+input {
+  background-color: #FFDDBA;
+  color: #803219;
+  font-family: 'Fredoka', sans-serif;
+}
+
+input::placeholder {
+  color: #803219;
+  opacity: .5;
+  font-family: 'Fredoka', sans-serif;
+}
+
+input:focus {
+  outline: none;
+  background-color: #FFC48C; 
+  box-shadow: 0 0 10px rgba(128, 50, 25,.1); 
+  border: 2.5px solid #803219; 
+}
+
+.answer {
+  background-color: #FFDDBA;
+  color: #803219;
+  font-size: 1.5rem;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  word-wrap: break-word;
+  text-align: center;
+  max-width: 90%;
+}
+
+footer{
+  font-family: 'Fredoka', sans-serif;
 }
 
 @layer utilities {
