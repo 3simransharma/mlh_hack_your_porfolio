@@ -1,4 +1,4 @@
-# Yammi! (AI/ML -powered web-based project)
+# Yammi! (AI/ML -powered web-based project) <a href="https://www.youtube.com/watch?v=EQTS5MBi_b4" target="_blank"><img src="https://img.shields.io/badge/Watch-YouTube-red.svg?logo=youtube&style=for-the-badge" alt="Watch on YouTube"></a>
 
 *Substitute Ingredients, not flavor!*
 
@@ -8,7 +8,6 @@
 ## Introduction:
 
 "Yammi" is an AI/ML-powered web-based project created for the hackathon "MLH Hack Your Portfolio." This platform addresses the challenge of selecting the perfect substitute ingredients for various dishes without any hassle.
-Stack Used:
 
 
 ## Challenge and Problem:
